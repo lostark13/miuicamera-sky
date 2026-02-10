@@ -1,7 +1,7 @@
-From efbd05668a44ab42639da0514d286dd87926648b Mon Sep 17 00:00:00 2001
+From 49a0eb9cb24289404de7525d4d52b1cee3ba1531 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Fri, 8 Mar 2024 02:11:53 +0100
-Subject: [PATCH 06/10] Support third party galleries
+Subject: [PATCH 5/7] Support third party galleries
 
 ---
  smali/com/android/camera/l3.smali | 8 ++------
@@ -35,5 +35,5 @@ index de3defeb1..ecc8ba3b0 100644
  
      const/4 p2, 0x1
 -- 
-2.47.2
+2.47.3
 

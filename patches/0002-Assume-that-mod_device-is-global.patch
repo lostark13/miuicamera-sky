@@ -1,7 +1,7 @@
-From c59c35c9aa1d792a19b93380a4b30808bee179db Mon Sep 17 00:00:00 2001
+From 26ad334c88394b32f4952c82b5b86f9a44fbc98b Mon Sep 17 00:00:00 2001
 From: danielml <daniel@danielml.dev>
 Date: Fri, 19 Apr 2024 17:32:08 +0200
-Subject: [PATCH 02/10] Assume that mod_device is global
+Subject: [PATCH 2/7] Assume that mod_device is global
 
 Otherwise, the app tries to start a custom permissions dialog which
 has dependencies on HyperOS Security Center app
@@ -26,5 +26,5 @@ index 41cc3c63d..d38642250 100644
      sput-boolean v0, Ler/a;->a:Z
  
 -- 
-2.47.2
+2.47.3
 

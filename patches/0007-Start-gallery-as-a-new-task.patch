@@ -1,7 +1,7 @@
-From f8f16e8924b49f143ab1014bf802929ef6c904bd Mon Sep 17 00:00:00 2001
+From 78a249b2bd3e048aaab00aaac087e6b485f2da1b Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Tue, 15 Oct 2024 01:44:04 +0200
-Subject: [PATCH 10/10] Start gallery as a new task
+Subject: [PATCH 7/7] Start gallery as a new task
 
 When launched from lockscreen user will have to unlock for the gallery to be opened, then the gallery is living in the camera process which is wrong.
 Let it create a new task for it.
@@ -25,5 +25,5 @@ index a5c3e074d..986da34da 100644
  
      invoke-virtual {p1}, Lcom/android/camera/ActivityBase;->ri()Z
 -- 
-2.47.2
+2.47.3
 

@@ -1,7 +1,7 @@
-From 26fda4e54af21647d8481f5c8a1198f350f1f55e Mon Sep 17 00:00:00 2001
+From 4652c52bd94f3160fdf839d64ca6f28998f60847 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Wed, 16 Oct 2024 01:29:58 +0200
-Subject: [PATCH 07/10] Change com.android.camera.action.REVIEW to
+Subject: [PATCH 6/7] Change com.android.camera.action.REVIEW to
  android.provider.action.REVIEW
 
 This is the standard intent for review actions
@@ -46,5 +46,5 @@ index ecc8ba3b0..a5c3e074d 100644
      invoke-static {p1, v1, p0}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
  
 -- 
-2.47.2
+2.47.3
 
