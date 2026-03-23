@@ -1,4 +1,4 @@
-From 4652c52bd94f3160fdf839d64ca6f28998f60847 Mon Sep 17 00:00:00 2001
+From 2edaba1b3d18e52459c7bee7f0ae2c932590456f Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Wed, 16 Oct 2024 01:29:58 +0200
 Subject: [PATCH 6/7] Change com.android.camera.action.REVIEW to
@@ -11,7 +11,7 @@ This is the standard intent for review actions
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/smali/com/android/camera/a6.smali b/smali/com/android/camera/a6.smali
-index 67970325c..c7d160683 100644
+index c845e920d..e70a74af5 100644
 --- a/smali/com/android/camera/a6.smali
 +++ b/smali/com/android/camera/a6.smali
 @@ -193,7 +193,7 @@
@@ -24,7 +24,7 @@ index 67970325c..c7d160683 100644
  .field public static final e0:I = 0x8c36
  
 diff --git a/smali/com/android/camera/l3.smali b/smali/com/android/camera/l3.smali
-index ecc8ba3b0..a5c3e074d 100644
+index 2c0afb884..f19804019 100644
 --- a/smali/com/android/camera/l3.smali
 +++ b/smali/com/android/camera/l3.smali
 @@ -1090,7 +1090,7 @@
